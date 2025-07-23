@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+import { claudeKey, mistralKey } from "@/lib/apiKeys";
 
 const claudeKey = import.meta.env.VITE_CLAUDE_API_KEY;
 const mistralKey = import.meta.env.VITE_MISTRAL_API_KEY;
