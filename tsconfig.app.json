@@ -21,8 +21,7 @@
     "noImplicitAny": false,
     "noFallthroughCasesInSwitch": false,
 
-    const claudeKey = import.meta.env.VITE_CLAUDE_API_KEY;
-    const mistralKey = import.meta.env.VITE_MISTRAL_API_KEY;
+    
 
 
     "baseUrl": ".",
