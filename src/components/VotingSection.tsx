@@ -15,13 +15,13 @@ export function VotingSection({ winner, showFeedback }: VotingSectionProps) {
       <CardHeader className="pb-4">
         <CardTitle className="flex items-center gap-2 text-xl font-semibold text-success-foreground">
           <Trophy className="h-5 w-5 text-success" />
-          🗳️ Voting Complete
+          Voting Complete
         </CardTitle>
       </CardHeader>
       <CardContent>
         <div className="text-center space-y-2">
           <p className="text-lg font-medium text-success-foreground">
-            Thanks for voting! 🎉
+            Thanks for voting! 
           </p>
           <p className="text-sm text-muted-foreground">
             You voted for <Badge className="bg-success text-success-foreground rounded-full mx-1">{winner}</Badge> as the better response.

@@ -106,7 +106,7 @@ const Index = () => {
             <Swords className="h-8 w-8 text-accent" />
           </div>
           <p className="text-center text-muted-foreground mt-2">
-            🧠 Compare responses from different large language models
+            Compare responses from different large language models
           </p>
         </div>
       </header>
@@ -132,7 +132,7 @@ const Index = () => {
           <section className="space-y-6 animate-fade-in">
             <div className="text-center">
               <h2 className="text-2xl font-bold text-foreground mb-2">
-                ⚔️ Model Comparison
+                Model Comparison
               </h2>
               <p className="text-muted-foreground">
                 Compare the responses and vote for your favorite
@@ -181,7 +181,7 @@ const Index = () => {
       <footer className="bg-card/50 border-t border-border mt-16">
         <div className="container mx-auto px-4 py-8 text-center">
           <p className="text-muted-foreground">
-            🆚 Built with love for AI enthusiasts • Compare • Vote • Learn
+            Built with love for AI enthusiasts • Compare • Vote • Learn
           </p>
         </div>
       </footer>

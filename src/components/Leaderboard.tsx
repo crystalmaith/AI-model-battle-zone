@@ -45,7 +45,7 @@ export function Leaderboard() {
       <CardHeader className="pb-4">
         <CardTitle className="flex items-center gap-2 text-xl font-semibold text-warning-foreground">
           <Trophy className="h-6 w-6 text-warning" />
-          🏆 Leaderboard
+          Leaderboard
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -84,7 +84,7 @@ export function Leaderboard() {
 
         <div className="text-center pt-2 border-t border-border">
           <p className="text-xs text-muted-foreground">
-            🆚 Data updates in real-time based on your votes
+            Data updates in real-time based on your votes
           </p>
         </div>
       </CardContent>

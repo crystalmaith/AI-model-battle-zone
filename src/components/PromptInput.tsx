@@ -33,7 +33,7 @@ export function PromptInput({ onRunPrompt, isLoading }: PromptInputProps) {
       <CardHeader className="space-y-1 pb-4">
         <CardTitle className="flex items-center gap-2 text-2xl font-semibold text-foreground">
           <PenTool className="h-6 w-6 text-primary" />
-          🔍 Prompt Input
+          Prompt Input
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">

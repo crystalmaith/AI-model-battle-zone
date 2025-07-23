@@ -74,7 +74,7 @@ export function ModelCard({
             <span className="text-xl font-semibold">{modelName}</span>
             {isWinner && (
               <Badge className="bg-success text-success-foreground rounded-full">
-                🏆 Winner
+                Winner
               </Badge>
             )}
           </div>

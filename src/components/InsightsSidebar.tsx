@@ -58,7 +58,7 @@ export function InsightsSidebar({
         >
           <CardTitle className="flex items-center gap-2 text-lg font-semibold text-accent-foreground">
             <BarChart3 className="h-5 w-5 text-accent" />
-            📈 Insights
+            Insights
           </CardTitle>
           {isExpanded ? (
             <ChevronDown className="h-4 w-4 text-accent" />
