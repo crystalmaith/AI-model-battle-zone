@@ -32,14 +32,14 @@ export function PromptInput({ onRunPrompt, isLoading }: PromptInputProps) {
     <Card className="w-full bg-card border-border rounded-2xl shadow-lg">
       <CardHeader className="space-y-1 pb-4">
         <CardTitle className="flex items-center gap-2 text-2xl font-semibold text-foreground">
-          <PenTool className="h-6 w-6 text-primary" />
-          Prompt Input
+          <PenTool className="h-6 w-6 text-destructive" />
+          🔥 Summon Your Dark Command
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="space-y-2">
-          <label className="text-sm font-medium text-foreground">
-            Task Type
+          <label className="text-sm font-medium text-red-200">
+            💀 Dark Ritual Type
           </label>
           <Select value={taskType} onValueChange={setTaskType}>
             <SelectTrigger className="rounded-xl bg-background border-border">
@@ -56,13 +56,13 @@ export function PromptInput({ onRunPrompt, isLoading }: PromptInputProps) {
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-foreground">
-            Your Prompt
+          <label className="text-sm font-medium text-red-200">
+            🔥 Your Demonic Incantation
           </label>
           <Textarea
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            placeholder="Type or paste your prompt here... (e.g., 'Summarize this news article')"
+            placeholder="Whisper your darkest commands here... (e.g., 'Unleash the essence of this cursed text')"
             className="min-h-[120px] rounded-xl bg-background border-border resize-none"
           />
         </div>
@@ -73,7 +73,7 @@ export function PromptInput({ onRunPrompt, isLoading }: PromptInputProps) {
           className="w-full rounded-xl bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-3 transition-all duration-200 hover:scale-[1.02]"
         >
           <Play className="h-4 w-4 mr-2" />
-          {isLoading ? "Running..." : "Run Prompt"}
+          {isLoading ? "🔥 Summoning..." : "💀 UNLEASH HELL"}
         </Button>
       </CardContent>
     </Card>

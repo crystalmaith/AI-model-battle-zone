@@ -99,14 +99,14 @@ const Index = () => {
       <header className="bg-card/80 backdrop-blur-sm border-b border-border sticky top-0 z-50">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-center gap-3">
-            <Brain className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              LLM Battle Room
+            <Brain className="h-8 w-8 text-destructive" />
+            <h1 className="text-3xl font-bold bg-gradient-to-r from-destructive to-warning bg-clip-text text-transparent drop-shadow-lg">
+              🔥 INFERNAL AI BATTLE ARENA 💀
             </h1>
-            <Swords className="h-8 w-8 text-accent" />
+            <Swords className="h-8 w-8 text-warning" />
           </div>
-          <p className="text-center text-muted-foreground mt-2">
-            Compare responses from different large language models
+          <p className="text-center text-red-200 mt-2 drop-shadow-md">
+            💀 Where digital demons clash in eternal combat! 🔥
           </p>
         </div>
       </header>
@@ -131,11 +131,11 @@ const Index = () => {
         {responses && !isLoading && (
           <section className="space-y-6 animate-fade-in">
             <div className="text-center">
-              <h2 className="text-2xl font-bold text-foreground mb-2">
-                Model Comparison
+              <h2 className="text-2xl font-bold text-destructive mb-2 drop-shadow-lg">
+                🔥 DEMONIC BATTLE RESULTS 💀
               </h2>
-              <p className="text-muted-foreground">
-                Compare the responses and vote for your favorite
+              <p className="text-red-200">
+                Witness the carnage and choose your champion of darkness!
               </p>
             </div>
 
@@ -180,8 +180,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-card/50 border-t border-border mt-16">
         <div className="container mx-auto px-4 py-8 text-center">
-          <p className="text-muted-foreground">
-            Built with love for AI enthusiasts • Compare • Vote • Learn
+          <p className="text-red-300">
+            🔥 Forged in the fires of digital hell • Compare • Battle • Conquer 💀
           </p>
         </div>
       </footer>

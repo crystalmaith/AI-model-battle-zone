@@ -11,24 +11,24 @@ export function VotingSection({ winner, showFeedback }: VotingSectionProps) {
   if (!showFeedback) return null;
 
   return (
-    <Card className="w-full bg-success/10 border-success/20 rounded-2xl shadow-lg animate-fade-in">
+    <Card className="w-full bg-destructive/20 border-destructive/40 rounded-2xl shadow-lg animate-fade-in">
       <CardHeader className="pb-4">
-        <CardTitle className="flex items-center gap-2 text-xl font-semibold text-success-foreground">
-          <Trophy className="h-5 w-5 text-success" />
-          Voting Complete
+        <CardTitle className="flex items-center gap-2 text-xl font-semibold text-destructive drop-shadow-lg">
+          <Trophy className="h-5 w-5 text-warning" />
+          🔥 DARK RITUAL COMPLETE 💀
         </CardTitle>
       </CardHeader>
       <CardContent>
         <div className="text-center space-y-2">
-          <p className="text-lg font-medium text-success-foreground">
-            Thanks for voting! 
+          <p className="text-lg font-medium text-red-200 drop-shadow-md">
+            🔥 YOUR DARK VOTE HAS BEEN CAST! 💀
           </p>
-          <p className="text-sm text-muted-foreground">
-            You voted for <Badge className="bg-success text-success-foreground rounded-full mx-1">{winner}</Badge> as the better response.
+          <p className="text-sm text-red-300">
+            You've chosen <Badge className="bg-warning text-black rounded-full mx-1">{winner}</Badge> as your champion of digital darkness!
           </p>
-          <p className="text-xs text-muted-foreground mt-2 flex items-center justify-center gap-1">
+          <p className="text-xs text-red-400 mt-2 flex items-center justify-center gap-1">
             <Users className="h-3 w-3" />
-            Your vote has been saved locally
+            🔥 The infernal scores burn in eternal memory 💀
           </p>
         </div>
       </CardContent>
